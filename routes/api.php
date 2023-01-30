@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Contact;
+use App\Number;
+use App\Http\Resources\sdeleteResource;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,5 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('sdelete','newController@printDeleted');

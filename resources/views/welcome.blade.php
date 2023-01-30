@@ -42,6 +42,8 @@
 </table>
     <br>
     <a href="{{url('phonebook/create')}}"> Add new contact</a> 
+    <br>
+    <a href="{{url('api/sdelete')}}" >View Soft Deleted Numbers</a>
 </center>
 </body>
 </html>
