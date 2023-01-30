@@ -180,7 +180,7 @@ class rescontroller extends Controller
         }
         else
         {
-            if(sizeof($nums)>1)
+            if(sizeof($nums)>2)
             {
                 $nums[2]->delete();
             }
